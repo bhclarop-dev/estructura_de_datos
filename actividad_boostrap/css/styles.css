@@ -1,0 +1,21 @@
+
+
+/* Fondo del hero (sección de bienvenida) */
+.hero {
+  background-color: #e8f5e8; /* Verde claro */
+  border-bottom: 2px solid #a8d5a8; /* Verde más oscuro */
+}
+
+/* Pequeño efecto hover en las cards */
+.card {
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+/* Pie de página — un poco de espacio */
+footer {
+  margin-top: 40px;
+}
